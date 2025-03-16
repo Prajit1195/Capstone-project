@@ -1,0 +1,84 @@
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+li {
+    background: #f8f9fa;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+li:hover {
+    background: #e9ecef;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:first-of-type {
+    background-color: #3498db;
+    color: white;
+}
+
+button:first-of-type:hover {
+    background-color: #2980b9;
+}
+
+button:nth-of-type(2) {
+    background-color: #f1c40f;
+    color: white;
+}
+
+button:nth-of-type(2):hover {
+    background-color: #d4ac0d;
+}
+
+button:nth-of-type(3) {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button:nth-of-type(3):hover {
+    background-color: #c0392b;
+}
+
+button[routerLink] {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #27ae60;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button[routerLink]:hover {
+    background-color: #218c54;
+}
