@@ -44,6 +44,24 @@
       "location": "aurangabad",
       "mobileNumber": "9022430284",
       "id": 5
+    },
+    {
+      "email": "prajitchavhan123@gmail.com",
+      "password": "Prajit112",
+      "firstName": "Prajit",
+      "lastName": "Chavan",
+      "location": "pune",
+      "mobileNumber": "9309967105",
+      "id": 6
+    },
+    {
+      "email": "prajitchavhan123@gmail.com",
+      "password": "Prajit112",
+      "firstName": "Prajit",
+      "lastName": "Chavan",
+      "location": "pune",
+      "mobileNumber": "9309967105",
+      "id": 7
     }
   ],
   "products": [
@@ -57,12 +75,12 @@
       "quantity": 25
     },
     {
-      "name": "Air conditioners",
-      "description": "1 year warranty",
-      "manufacturer": "LG5",
-      "price": 50000,
+      "name": "headphone",
+      "description": "good sound quality",
+      "manufacturer": "jbl",
+      "price": 10000,
       "quantity": 5,
-      "id": 1742022174832
+      "id": 1742188633657
     }
   ]
 }
